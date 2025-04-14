@@ -30,3 +30,14 @@ ALTER TABLE compo ADD CONSTRAINT FOREIGN KEY(ID_ART) REFERENCES article(ID);
 ALTER TABLE compo ADD CONSTRAINT FOREIGN KEY(ID_BON) REFERENCES bon(ID);
 ALTER TABLE bon ADD CONSTRAINT FOREIGN KEY(ID_FOU) REFERENCES fournisseur(ID);
 ALTER TABLE article ADD CONSTRAINT FOREIGN KEY(ID_FOU) REFERENCES fournisseur(ID);
+
+-- lecture 
+SELECT -- choisir les colonnes // calculs
+
+FROM -- choisir la/les tables
+WHERE -- ==!= > < and or
+
+GROUP BY -- rassembler des données 
+HAVING --condition sur le group by
+
+ORDER BY --trier
