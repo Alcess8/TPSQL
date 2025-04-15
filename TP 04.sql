@@ -18,7 +18,7 @@ WHERE designation LIKE '%sachets%';
 -- e. Listez tous les articles dont la désignation contient le mot « sachet » indépendamment de la casse !
 SELECT * 
 FROM article 
-WHERE LOWER(designation) LIKE LOWER('%sachet%');
+WHERE LOWER(designation) LIKE '%sachet%';
 -- f. Listez les articles avec les informations fournisseur correspondantes. Les résultats doivent être triées dans l'ordre alphabétique des fournisseurs et par article du prix le plus élevé au moins élevé.
 SELECT * 
 FROM article, fournisseur 
